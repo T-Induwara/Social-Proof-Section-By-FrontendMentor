@@ -7,18 +7,12 @@
     }
 }
 @media only screen and (min-width:375px){
-    #first-col{
-        background-color:teal;
-    }
-    #second-col{
-        background-color:red;
-    }
+    
 }
 @media only screen and (min-width:1440px){
-    #first-col{
-        background-color:yellow;
-    }
-    #second-col{
-        background-color:grey;
+    .top-left-img{
+        background-image: url("/images/bg-pattern-top-desktop.svg") !important;
+        padding-top:20px;
+        padding-bottom:20px;
     }
 }
