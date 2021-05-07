@@ -1,0 +1,24 @@
+@media only screen and (max-width:375px){
+    #first-col{
+        background-color:blue;
+    }
+    #second-col{
+        background-color: seagreen;
+    }
+}
+@media only screen and (min-width:375px){
+    #first-col{
+        background-color:pink;
+    }
+    #second-col{
+        background-color:red;
+    }
+}
+@media only screen and (min-width:1440px){
+    #first-col{
+        background-color:yellow;
+    }
+    #second-col{
+        background-color:grey;
+    }
+}
