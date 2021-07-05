@@ -1,16 +1,12 @@
 @media only screen and (max-width:375px){
-    #first-col{
-        background-color:blue;
-    }
-    #second-col{
-        background-color: seagreen;
-    }
-}
-@media only screen and (min-width:375px){
     
 }
-@media only screen and (min-width:1440px){
+@media only screen and (min-width:375px){
     .top-left-img{
-        background-image : url("../images/bg-pattern-top-desktop.svg");
-    }
+        background-image:url("/images/bg-pattern-top-desktop.svg");
+        background-repeat:no-repeat;
+        height:800px;
+}
+@media only screen and (min-width:1440px){
+
 }
