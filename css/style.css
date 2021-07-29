@@ -1,15 +1,63 @@
-@media only screen and (min-width:375px){
-    
+@media only screen and (min-width: 375px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .top-left-img {
+    background-image: url("/images/bg-pattern-top-mobile.svg");
+    background-repeat: no-repeat;
+    height: 375px;
+  }
+  .main-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    margin-top: -302px;
+    z-index: 2;
+  }
+  .main-desc {
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgb(143, 143, 143);
+    text-align: center;
+    margin-top: 25px;
+  }
 }
-@media only screen and (min-width:768px){
-    .top-left-img{
-        background-image:url("/images/bg-pattern-top-desktop.svg");
-        background-repeat:no-repeat;
-        height:500px;
+@media only screen and (min-width: 768px) {
+  .top-left-img {
+    background-image: url("/images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    height: 500px;
+  }
 }
-@media only screen and (min-width:1024px){
-    .top-left-img{
-        background-image:url("/images/bg-pattern-top-desktop.svg");
-        background-repeat:no-repeat;
-        height:100vh;
+@media only screen and (min-width: 1024px) {
+  .top-left-img {
+    background-image: url("/images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: 1;
+  }
+  .main-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    text-align: left;
+    margin-top: -590px;
+    z-index: 2;
+  }
+  .main-desc {
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgb(143, 143, 143);
+    text-align: left;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "spartan", sans-serif;
 }
