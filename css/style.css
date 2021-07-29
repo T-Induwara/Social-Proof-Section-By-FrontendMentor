@@ -1,10 +1,6 @@
 @media only screen and (min-width: 375px) {
-  body {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
   .top-left-img {
-    background-image: url("/images/bg-pattern-top-mobile.svg");
+    background-image: url("../images/bg-pattern-top-mobile.svg");
     background-repeat: no-repeat;
     height: 375px;
   }
@@ -13,27 +9,26 @@
     font-weight: 700;
     color: hsl(300, 43%, 22%);
     text-align: center;
-    margin-top: -302px;
     z-index: 2;
   }
   .main-desc {
     font-size: 15px;
     font-weight: 400px;
-    color: rgb(143, 143, 143);
+    color: hsl(303, 10%, 53%);
     text-align: center;
     margin-top: 25px;
   }
-}
-@media only screen and (min-width: 768px) {
-  .top-left-img {
-    background-image: url("/images/bg-pattern-top-desktop.svg");
-    background-repeat: no-repeat;
-    height: 500px;
+  #f-cont {
+    margin-top: -302px;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1400px) {
+  body {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
   .top-left-img {
-    background-image: url("/images/bg-pattern-top-desktop.svg");
+    background-image: url("../images/bg-pattern-top-desktop.svg");
     background-repeat: no-repeat;
     height: 100vh;
     z-index: 1;
@@ -43,14 +38,16 @@
     font-weight: 700;
     color: hsl(300, 43%, 22%);
     text-align: left;
-    margin-top: -590px;
     z-index: 2;
   }
   .main-desc {
     font-size: 15px;
     font-weight: 400px;
-    color: rgb(143, 143, 143);
+    color: hsl(303, 10%, 53%);
     text-align: left;
+  }
+  #f-cont {
+    margin-top: -600px;
   }
 }
 h1,
@@ -60,4 +57,48 @@ h4,
 h5,
 h6 {
   font-family: "spartan", sans-serif;
+}
+.first-str {
+  margin-top: 20px;
+  display: flex;
+  width: 450px;
+  height: 65px;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin-left: 80px;
+}
+.second-str {
+  margin-top: 20px;
+  display: flex;
+  width: 450px;
+  height: 65px;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin-left: 80px;
+}
+.third-str {
+  margin-top: 20px;
+  display: flex;
+  width: 450px;
+  height: 65px;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin-left: 80px;
+}
+.str {
+  flex: 50%;
+  text-align: center;
+  margin-left: -80px;
+}
+.text {
+  flex: 50%;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 17px;
+  margin-left: -80px;
 }
