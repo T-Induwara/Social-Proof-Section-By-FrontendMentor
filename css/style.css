@@ -21,6 +21,47 @@
   #f-cont {
     margin-top: -302px;
   }
+  #top-right-col {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .first-str {
+    margin-top: 20px;
+    width: 325px;
+    height: 85px;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+  .second-str {
+    margin-top: 20px;
+    width: 325px;
+    height: 8s5px;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+  .third-str {
+    margin-top: 20px;
+    width: 325px;
+    height: 85px;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+  .str {
+    text-align: center;
+  }
+  .text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 17px;
+  }
 }
 @media only screen and (min-width: 1400px) {
   body {
@@ -48,6 +89,9 @@
   }
   #f-cont {
     margin-top: -600px;
+  }
+  #top-right-col {
+    margin-left: 0px;
   }
   .first-str {
     margin-top: 20px;
