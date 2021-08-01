@@ -166,6 +166,7 @@
     flex: 50%;
     text-align: center;
     margin-left: -80px;
+    margin-top: -10px;
   }
   .text {
     flex: 50%;
@@ -175,6 +176,7 @@
     text-align: left;
     padding-top: 17px;
     margin-left: -80px;
+    margin-top: -10px;
   }
   #bottom-row {
     margin-top: 60px;
